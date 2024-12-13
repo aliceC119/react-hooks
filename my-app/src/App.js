@@ -1,13 +1,11 @@
-import css from './App.module.css';
-import Sidebar from "./components/Sidebar";
+import ControlledFormHooks from "./components/ControlledFormHooks";
+
 
 function App() {
-  return (
-    <div className={css.App}>
-      {/* Add your components here */}
-      <Sidebar />
-    </div>
-  );
+  return <div className="App">
+    <ControlledFormHooks />
+      
+  </div>;
 }
 
 export default App;
